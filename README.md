@@ -1,7 +1,7 @@
 # Masters-Thesis
 # Supplementary MATLAB Code
 
-This repository contains the MATLAB scripts used for the data processing, basal-friction inversion, analysis of the contributing terms, and rheological model evaluation presented in this thesis.
+This repository contains the MATLAB scripts used for the basal-friction inversion, analysis of the contributing terms, and rheological model evaluation presented in this thesis.
 
 The code is organised into the following main sections:
 
@@ -25,10 +25,11 @@ Contains the MATLAB scripts used to evaluate and compare the rheological formula
 
 The scripts include the calculation of modelled basal friction and the quantitative comparison with the reconstructed friction signal using the sum of squared errors (SSE).
 
-## Data and Reproducibility
+## Master Thesis Figures
 
-The repository contains the MATLAB code and measurement-specific parameter settings used in the analysis. The original LiDAR point-cloud data and processed project data are not included due to their size and/or project-specific data-access restrictions.
+The complete set of figures and plots generated for this thesis is provided in the accompanying ETH Polybox folder:
 
-The scripts were developed and executed in MATLAB. Some scripts require project-specific utility functions and input data structures that are not included in this repository.
+[Master Thesis_Data – ETH Polybox](https://polybox.ethz.ch/index.php/s/LT6DQbWbf7WyYnr?utm_source=chatgpt.com)
 
-The repository is provided as supplementary material to document the computational workflow and improve the reproducibility of the analyses presented in this thesis.
+The folder contains the figures used in the main thesis as well as the additional plots generated during the analysis.
+
