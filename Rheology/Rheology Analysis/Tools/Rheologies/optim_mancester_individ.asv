@@ -1,0 +1,6 @@
+function mancester_optim_individ = optim_mancester_individ(param_struct, u1, u2,u3,beta,beta_star,kappa,L, gamma)
+
+frict_mancester = get_mancester_frict_coef(param_struct, u1, u2,u3,beta,beta_star,kappa,L, gamma);
+
+resiudal = frict_mancester(:,param_struct.target_sec
+mancester_optim_individ = frict_mancester(:,)
