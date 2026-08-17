@@ -13,7 +13,7 @@ Measurement-specific processing parameters are retained in the corresponding MAT
 
 ## 2. Dominating Factors
 
-Contains the scripts used to analyse the individual terms contributing to the basal-friction inversion. These scripts were used to quantify the relative contribution of the different terms of the depth-averaged momentum balance to the temporal variability of the reconstructed basal friction signal.
+Contains the scripts used to analyse the individual terms contributing to the basal-friction inversion.
 
 ## 3. Rheology
 
@@ -21,9 +21,9 @@ Contains the MATLAB scripts used to evaluate and compare the rheological formula
 
 * Voellmy
 * Manchester
-* Power-law
+* Power Law Fluid
 
-The scripts include the calculation of modelled basal friction and the quantitative comparison with the reconstructed friction signal using the sum of squared errors (SSE).
+The scripts include the calculation of modelled basal friction.
 
 ## Master Thesis Figures
 
