@@ -68,9 +68,8 @@ X = [T.T2 T.T3 T.T4];
 
 b = bar(X,'stacked','LineStyle','none');
 
-% =========================
-% 🎨 SCIENTIFIC COLOR SET
-% =========================
+
+% Colors
 b(1).FaceColor = [0.00 0.45 0.74];   % T2 = dz/dy (geometry / slope)
 b(2).FaceColor = [0.85 0.33 0.10];   % T3 = dv/dt (unsteady)
 b(3).FaceColor = [0.47 0.67 0.19];   % T4 = v dv/dy (advection)
@@ -80,18 +79,15 @@ xlabel('Event')
 
 ylim([0 1])
 
-% =========================
+
 % LEGEND (clean + physical)
-% =========================
 legend(b, { ...
     'T2 = dz/dy (slope)', ...
     'T3 = (1/g cosS0) dv/dt', ...
     'T4 = (1/g cosS0) v dv/dy' ...
 }, 'Location','eastoutside')
 
-% =========================
 % AXES FORMATTING
-% =========================
 grid on
 box on
 
@@ -99,15 +95,12 @@ xticks(1:height(T))
 xticklabels(T.EventDate)
 xtickangle(90)
 
-% =========================
 % STATION SEPARATION
-% =========================
 xline(9.5,'k-','LineWidth',2,'HandleVisibility','off')
 xline(17.5,'k-','LineWidth',2,'HandleVisibility','off')
 
-% =========================
+
 % STATION LABELS
-% =========================
 text(5,1.05,'CD27','HorizontalAlignment','center', ...
     'FontWeight','bold','FontSize',12)
 
