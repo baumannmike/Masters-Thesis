@@ -1,4 +1,4 @@
-# Masters-Thesis
+# Master's-Thesis
 # Supplementary MATLAB Code
 
 This repository contains the MATLAB scripts used for the basal-friction inversion, analysis of the contributing terms, and rheological model evaluation presented in this thesis.
